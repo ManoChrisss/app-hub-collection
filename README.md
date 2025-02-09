@@ -25,7 +25,7 @@ O principal objetivo deste projeto é praticar e aprender mais sobre desenvolvim
 ## Como Rodar o Projeto
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/calculadora-simples-tkinter.git
+   git clone https://github.com/ManoChrisss/app-hub-collection.git
 
 ## Navegue até o diretório do projeto:
 
