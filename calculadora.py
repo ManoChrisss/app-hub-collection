@@ -59,10 +59,6 @@ class Calculator:
         self.master.destroy()
         import index  # Importando a tela inicial (index.py)
         root = tk.Tk()
-        index_screen = index.Index(root)  # Chama a classe da tela inicial
+        index.Index(root)  # Chama a classe da tela inicial
         root.mainloop()
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    calculator = Calculator(root)
-    root.mainloop()

@@ -24,13 +24,13 @@ class Index:
         self.button.grid(row=1, column=0, columnspan=4, padx=10, pady=20)
 
     def open_calculator(self):
-        # Fecha a tela atual
+    # Fecha a tela atual
         self.master.destroy()
 
-        # Importa o arquivo da calculadora e cria uma nova janela
+    # Importa o arquivo da calculadora e cria uma nova janela
         import calculadora  # ou o nome correto do arquivo
         root = tk.Tk()
-        calculator = calculadora.Calculator(root)
+        self.calculator = calculadora.Calculator(root)
         root.mainloop()
 
 
