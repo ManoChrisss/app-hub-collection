@@ -41,6 +41,6 @@ Isso abrirá a interface gráfica da página inicial.
 
 ## Sobre o Desenvolvedor
 
- Olá! Me chamo Chrisstian, tenho atualmente 19 anos. Gosto de vídeo-games, tecnologia, academia, enfim.. Sou iniciante no mundo da programação e estou criando uma série de aplicativos simples para aprender e melhorar minhas habilidades. A cada novo projeto, estou aprimorando meus conhecimentos sobre desenvolvimento de software e criando novas funcionalidades.
+ Olá! Me chamo Chrisstian, tenho atualmente 20 anos. Gosto de vídeo-games, tecnologia, academia, enfim.. Sou iniciante no mundo da programação e estou criando uma série de aplicativos simples para aprender e melhorar minhas habilidades. A cada novo projeto, estou aprimorando meus conhecimentos sobre desenvolvimento de software e criando novas funcionalidades.
 
 Este projeto faz parte de um esforço contínuo para aprender sobre Python, Tkinter e o desenvolvimento de interfaces gráficas. O aprendizado constante é um dos meus principais objetivos e estou aberto a contribuições e sugestões.
