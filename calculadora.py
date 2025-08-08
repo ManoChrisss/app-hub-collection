@@ -10,7 +10,7 @@ class Calculator:
         self.result_var = tk.StringVar()
 
         # Adicionando o label com o texto acima do visor
-        self.label = tk.Label(self.master, text="Faça sua conta matemática!", font=("Arial", 14), bg="black", fg="white")
+        self.label = tk.Label(self.master, text="Faça sua conta matemática", font=("Arial", 14), bg="black", fg="white")
         self.label.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
         # Criando o campo de entrada (visor)
