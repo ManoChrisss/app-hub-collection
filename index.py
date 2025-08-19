@@ -22,15 +22,27 @@ class Index:
         # Botão para ir para a calculadora
         self.button = tk.Button(self.master, text="Calculadora", font=("Arial", 20), bg="grey", fg="white", width=15, height=2, command=self.open_calculator)
         self.button.grid(row=1, column=0, columnspan=4, padx=10, pady=20)
+        # botão para abrir a forca
+        self.button = tk.Button(self.master, text="Forca", font=("Arial", 20), bg="grey", fg="white", width=15, height=2, command=self.open_forca)
+        self.button.grid(row=2, column=0, columnspan=4, padx=10, pady=20)
 
     def open_calculator(self):
-    # Fecha a tela atual
+        # Fecha a tela principal
         self.master.destroy()
 
-    # Importa o arquivo da calculadora e cria uma nova janela
+        # Importa o arquivo da calculadora e cria uma nova janela
         import calculadora  # ou o nome correto do arquivo
         root = tk.Tk()
         self.calculator = calculadora.Calculator(root)
+
+    def open_forca(self):
+        # Fecha a tela home
+        self.master.destroy()
+
+        # Importa o arquivo do jogo da forca e cria uma nova janela
+        import forca  # ou o nome correto do arquivo
+        root = tk.Tk()
+        self.forca = forca.JogoDaForca(root)
         root.mainloop()
 
 
