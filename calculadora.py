@@ -72,7 +72,7 @@ class Calculator:
                     fg="white",
                     width=5,
                     height=2,
-                    command=self.master.destroy  # Sai do app
+                    command=self.sair
                 )
             else:
                 button = tk.Button(
@@ -101,6 +101,14 @@ class Calculator:
 
     def limpar(self):
         self.result_var.set("")
+    
+    def sair(self):
+        self.master.destroy()         # Fecha a janela atual
+        import index                  # Importa a tela inicial
+        root = tk.Tk()                # Cria uma nova janela
+        index.Index(root)             # Inicializa a tela inicial
+        root.mainloop()               # Executa a janela
+
 
 
 if __name__ == "__main__":
